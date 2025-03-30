@@ -157,7 +157,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "ttps://dandd-18e01.web.app/",
+          href: "https://dandd-18e01.web.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
