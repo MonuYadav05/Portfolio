@@ -216,8 +216,13 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://portfolio-seven-tan-66.vercel.app/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MonuYadav05/Portfolio",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/portfolio.png",
