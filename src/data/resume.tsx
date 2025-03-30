@@ -202,7 +202,7 @@ export const DATA = {
     {
       title: "Portfolio",
       href: "",
-      dates: "September 2024",
+      dates: "march 2025",
       active: true,
       description:
         "Developed an amazing Portfolio to showase my work to potentiol recruiters. I used latest web desiging techniques like [TailwindCSS](https://tailwindcss.com/) and [Shadcn UI](https://ui.shadcn.com/) to make it look good and [Next.js](https://nextjs.org/) to make it fast.",
