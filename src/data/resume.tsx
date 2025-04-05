@@ -109,6 +109,70 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "AI-Powered YouTube Video Summarizer",
+      href: "https://youtu.be/LT69kxWYfAo",
+      dates: "april 2025",
+      active: true,
+      description:
+        "A Chrome extension built with Vite + React that provides AI-powered video summarization for YouTube. Extract transcripts, generate concise summaries, and get key takeaways in seconds! Built using Vite, React, and the YouTube Data API.",
+      technologies: [
+        "ReactJS",
+        "Vite",
+        "YouTube Data API",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Fast API",
+        "Gemini Api",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://youtu.be/LT69kxWYfAo",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MonuYadav05/Ai-YouTube-video-summarizer",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/summarizer.png",
+      video: "",
+    },
+    {
+      title: "NFT Marketplace",
+      href: "https://nft-marketplace-rose-five.vercel.app/",
+      dates: "april 2025",
+      active: true,
+      description:
+        "A full-stack decentralized application (dApp) where users can mint, view, and buy NFTs using ETH. Built using Next.js, Solidity Contract, and React. The application allows users to create and manage their NFT collections, view NFTs, and purchase NFTs securely with Ethereum payments.",
+      technologies: [
+        "Next.js",
+        "Solidity",
+        "ReactJS",
+        "RainbowKit",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Viem",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nft-marketplace-rose-five.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MonuYadav05/NFT-Marketplace",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/nft.png",
+      video: "",
+    },
+    {
       title: "Real-Time Chat Application",
       href: "https://draw-app-web.vercel.app",
       dates: "february 2025",
@@ -170,36 +234,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "JobHub",
-      href: "https://client-ashen-chi.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        "A job portal application built using React, Node.js, Express, Tailwind CSS, and MongoDB. This platform allows employers to post job openings and job seekers to search and apply for jobs.",
-      technologies: [
-        "React.js",
-        "javascript",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://client-ashen-chi.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/MonuYadav05/Job-Potal",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/jobhub.png",
-      video: "",
-    },
-    {
       title: "Portfolio",
       href: "",
       dates: "march 2025",
@@ -228,6 +262,36 @@ export const DATA = {
       image: "/portfolio.png",
       video: "",
     },
+    {
+      title: "JobHub",
+      href: "https://client-ashen-chi.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        "A job portal application built using React, Node.js, Express, Tailwind CSS, and MongoDB. This platform allows employers to post job openings and job seekers to search and apply for jobs.",
+      technologies: [
+        "React.js",
+        "javascript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://client-ashen-chi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MonuYadav05/Job-Potal",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/jobhub.png",
+      video: "",
+    }
   ],
   hackathons: [
     {
@@ -242,6 +306,21 @@ export const DATA = {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/MonuYadav05/syntax-error-Vikings",
+        },
+      ],
+    },
+    {
+      title: "Metallurgica Tech Hackathon IIT Roorkee",
+      dates: "1 - 4 april 2025",
+      location: "IIT Roorkee, India",
+      description:
+        "Developed an Chrome extension built with Vite + React that provides AI-powered video summarization for YouTube. Extract transcripts, generate concise summaries, and get key takeaways in seconds! Built using Vite, React, and the YouTube Data API.",
+      image: "metes2.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/MonuYadav05/Ai-YouTube-video-summarizer",
         },
       ],
     },
