@@ -47,21 +47,18 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/monuyadav05",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/monu-yadav-00141a293/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/Monuyadav823507",
         icon: Icons.x,
-
         navbar: true,
       },
 
@@ -108,6 +105,39 @@ export const DATA = {
     }
   ],
   projects: [
+    {
+      title: "d2c-E-commerce-Plateform",
+      href: "https://d2c-e-commerce-plateform-duro.vercel.app/",
+      dates: "may 2025",
+      active: true,
+      description:
+        "A modern, responsive grocery and essentials delivery platform built with Next.js, inspired by industry leaders like Zepto, Swiggy, and Zomato.",
+      technologies: [
+        "NextJs",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Prisma ORM",
+        "PostgreSQL",
+        "NextAuth.js",
+        "Framer Motion",
+        "React Context"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://d2c-e-commerce-plateform-duro.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MonuYadav05/d2c-E-commerce-Plateform",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ecommerce.png",
+      video: "",
+    },
     {
       title: "AI-Powered YouTube Video Summarizer",
       href: "https://youtu.be/LT69kxWYfAo",
@@ -201,36 +231,6 @@ export const DATA = {
         },
       ],
       image: "/chatapp.png",
-      video: "",
-    },
-    {
-      title: "Gorgeous & Gleam E-Commerce Platform",
-      href: "https://dandd-18e01.web.app/",
-      dates: "february 2025",
-      active: true,
-      description:
-        "This project is a comprehensive online shopping application built using React, database as Firebase ,Cloudinary for storage, and Redux for state management. It offers users a seamless shopping experience with features like product browsing, cart management, and secure authentication for admin panel from where admin can manage product listing.",
-      technologies: [
-        "React.js",
-        "Redux Store",
-        "Javascript",
-        "firebase ",
-        "cloudinary",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://dandd-18e01.web.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/MonuYadav05/Gandg",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/gang.png",
       video: "",
     },
     {
