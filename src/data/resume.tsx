@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Monu Yadav",
@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Tech Enthusiast turned Software Engineer . I love building things and helping people.",
   summary:
-    "I’m a passionate pre-final year [B.Tech student at IIT Roorkee ](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
+    "I’m a passionate pre-final year [B.Tech student at IIT Roorkee ](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) and sharing my insights through Linkedin/X. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
   avatarUrl: "/monu.png",
   skills: [
     "React",
@@ -29,7 +29,6 @@ export const DATA = {
     "Prisma",
     "MonoRepo",
     "WebSocket",
-    "Kafka",
     "Redis",
     "Nginx",
     "AWS",
@@ -83,7 +82,6 @@ export const DATA = {
       end: "feb 2025",
       description:
         "Developed and enhanced the frontend of the company’s website using React.js and Firebase. Deployed the website using Firebase Hosting and optimized it for SEO to improve search rankings.Built an Admin Panel for managing teachers and content writers, allowing:– Admins to view and manage teachers.– Content writers to create SEO - friendly blog posts.– Admins to share study materials with teachers.Implemented role - based authentication using Firebase Auth for Admins, Teachers, and Content Writers.Utilized Firebase Storage for secure file management and material sharing"
-
     },
   ],
   education: [
@@ -321,6 +319,21 @@ export const DATA = {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/MonuYadav05/Ai-YouTube-video-summarizer",
+        },
+      ],
+    },
+    {
+      title: "1st Place at General Championship Tech, IIT Roorkee",
+      dates: "12 - 18 april 2025",
+      location: "IIT Roorkee, India",
+      description:
+        "Developed an 2D decentralized game that runs on the Bitcoin blockchain using the Runes Protocol. This project explores how fungible tokens can power real-time game mechanics like character customization, in-game economy, and asset trading — all on Bitcoin.",
+      image: "gc.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/MonuYadav05/Hyperion-RuneLand",
         },
       ],
     },
